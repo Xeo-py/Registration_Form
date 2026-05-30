@@ -1,0 +1,84 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    display:flex;
+    border-left: 0cap;
+    margin:0;
+    padding:0;
+    height:100vh;
+    gap:50px;
+    background-color:#C8E6C9;
+}
+#heading{
+    font-family: 'Dancing Script', cursive;
+    color:#04490a;
+    margin:0;
+    background-color: rgba(8, 88, 14, 0.4);
+    width:100%;
+    border-radius:10px;
+}
+form{
+    background-color:rgba(4, 30, 16, 0.2);
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding:15px;
+    box-shadow: 0px 0px 40px rgba(4, 30, 16, 0.2);
+    border-radius:12px;
+}
+.form-row{
+    display:flex;
+    gap:20px;
+    width:100%;
+}
+.form-group{
+    display:flex;
+    flex-direction:column;
+    flex:1 1 0;
+    min-width:0;
+
+}
+.form-group input{
+    width:100%;
+    box-sizing:border-box;
+    margin:0;
+}
+#right-side{
+    width:40%;
+    display:flex;
+    padding-right:20px;
+    padding-left:20px;
+    background-image:linear-gradient(to right, rgba(200, 230, 201, 0) 50%, #C8E6C9 100%),url('./pictures/1412365.jpg');
+    background-size:cover;
+    background-position:center;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+    color:white;
+}
+#left-side{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+button{
+    align-self:center;
+    padding:5px 5px;
+    border-radius:12px;
+    background-color:#68cd70;
+    border-color:#52ac59;
+}
+input{
+    background-color:#E8F5E9;
+    border-radius:8px;
+    border-color:#52ac59;
+}
+#msg{
+    color:#C94A29;
+}
+a{
+    text-decoration:none;
+    color:#0d7015;
+    font-weight:600;
+}
